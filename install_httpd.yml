@@ -6,3 +6,7 @@
      yum:
        name: httpd
        state:  latest
+   - name: install php support for Apache
+     yum:
+       name: php
+       state:  latest
